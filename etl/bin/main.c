@@ -80,7 +80,7 @@ int logging(){
 	time(&tempo);
 
 	fprintf(logg, "time: %ld -- local time: %s\n", tempo, ctime(&tempo));	
-	fprintf(logg, "username: %s", getenv("USERNAME"));
+	fprintf(logg, "username: %s\n\n", getenv("USERNAME"));
 
 	fclose(logg);	
 	return EXIT_SUCCESS;
