@@ -5,13 +5,14 @@ Il programma prende i due primi argomenti passati da linea di comando e li confr
 Quando una matricola non è presente in una dei due file viene inserita nel file di output (che la posizione in cui verra generato dipenderà dal percorso passato come terzo argomento)
 
 ## Requisiti
-- python versione 3.11
+- compilatore gcc
+- Sistema operativo Unix
 
 ## Esecuzione
-eseguire sync.py da terminale, passando come argomento prima i due percorsi dei file csv e come terzo argomento il percorso per il file di output
+eseguire main.exe da terminale
 
 ## Tags
-sys time argparse os re platform try except with open EXIT_SUCCESS EXIT_FAILURE ArgumentParser exit perror None void append return write localtime strftime time node environ
+typedef struct macro include stdio stdlib locale ctime setlocale int char void FILE NULL _exit  
 
 ## Author
 Bastianello Federico
