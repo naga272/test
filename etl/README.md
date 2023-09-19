@@ -1,6 +1,4 @@
 # ETL
-![Language](https://img.shields.io/badge/Spellcheck-Pass-green?style=flat) ![Platform](https://img.shields.io/badge/OS%20platform%20supported-Windows-blue?style=flat) ![Language](https://img.shields.io/badge/Language-Python-yellowgreen?style=flat)  ![Testing](https://img.shields.io/badge/PEP8%20CheckOnline-Passing-green) ![Testing](https://img.shields.io/badge/Test-Pass-green)
-
 ## Descrizione
 programma che prende da linea di comando tre argomenti, i primi due argomenti usati come input e il terzo come output. Tutti e tre gli argomenti devono essere dei percorsi di file.
 Il programma prende i due primi argomenti passati da linea di comando e li confronta l'uno con l'altro.
