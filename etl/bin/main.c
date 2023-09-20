@@ -5,7 +5,24 @@
 #include <time.h>
 
 
-#if __unix__ 		// per evitare errori a causa delle variabili d'ambiente ho deciso che il programma deve essere usato solo su unix
+/*
+    *
+    * program name: sync.c
+    * Author: Bastianello Federico 
+    * Data: 20 / 09 / 2023
+    * 
+    * Descrizione programma:
+    * programma che prende da linea di comando tre argomenti, i primi due argomenti sono usati come input
+    * e il terzo come output. Tutti e tre gli argomenti devono essere dei percorsi di file.
+    * il programma prende i due primi argomenti passati da linea di comando e li confronta l'uno con l'altro.
+    * Quando una matricola non è presente in una dei due file viene inserita nel file di output
+    * (che la posizione in cui verra generato dipenderà dal percorso passato come terzo argomento)
+    *
+*/
+
+
+// per evitare errori a causa delle variabili d'ambiente ho deciso che il programma deve essere usato solo su unix
+#if __unix__ 		
 	#if !defined(checker) || !defined(g_lenght)
 
 		/*		MACRO & COSTANTI	*/
